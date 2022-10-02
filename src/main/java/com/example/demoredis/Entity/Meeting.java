@@ -1,4 +1,4 @@
-package com.example.demoredis;
+package com.example.demoredis.Entity;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.redis.core.RedisHash;
