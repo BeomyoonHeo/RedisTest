@@ -1,6 +1,8 @@
 ### CRUDRepository를 이용한 간단 테스트 완료 
 ```sql
 docker docker-compose-redis.yml 파일 추가됨 - 서버 바로 구동 가능하도록 설정해야 함
+명령어: docker-compose -f docker-compose-redis.yml up -d
+
 docker 사용하여 redis server, cli환경 구성 및 Hash값 key-value 구현 완료
 
 docker 설치 하여 redis server 구성해야 Spring server 열림 (포트 아웃바운드:인바운드 6379:6379)
